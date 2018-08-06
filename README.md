@@ -47,7 +47,7 @@ If you discover any security related issues, please email yorch@feimexico.com.mx
 
 ## Support us
 
-Spatie is a webdesign agency based in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://feimexico.com.mx/opensource).
+FEI is a Digital Invoicing startup based in Yucatán, México. You'll find an overview of all our open source projects [on our website](https://fei.com.mx/opensource).
 
 Does your business depend on our contributions? Reach out and support us on [Patreon](https://www.patreon.com/jorge_andrade). 
 All pledges will be dedicated to allocating workforce on maintenance and new awesome stuff.
