@@ -1,0 +1,56 @@
+{
+    "name": "feimx/csd-converter",
+    "description": ":package_description",
+    "keywords": [
+        "feimx",
+        "csd-converter",
+        "cfdi",
+        "facturacion electronica",
+        "mexico"
+    ],
+    "homepage": "https://github.com/feimx/csd-converter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jorge Andrade",
+            "email": "j.andrade.dev@gmail.com",
+            "homepage": "https://feimexico.com.mx",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "larapack/dd": "^1.0",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FeiMx\\Csd\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FeiMx\\Csd\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "FeiMx\\Csd\\CsdServiceProvider"
+            ],
+            "aliases": {
+                "Csd": "FeiMx\\Csd\\CsdFacade"
+            }
+        }
+    }
+}
