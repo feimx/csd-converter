@@ -19,7 +19,8 @@
         }
     ],
     "require": {
-        "php": "^7.1"
+        "php": "^7.1",
+        "nesbot/carbon": "^1.32"
     },
     "require-dev": {
         "larapack/dd": "^1.0",
