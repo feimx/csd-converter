@@ -4,3 +4,4 @@ docs
 vendor
 coverage
 temp
+.DS_Store
